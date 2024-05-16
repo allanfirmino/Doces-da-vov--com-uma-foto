@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Doces da Vovó</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="Logo Os Doces da Vovó">
+        <h1>Os Doces da Vovó</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <div class="container-sobre">
+            <h2>Nossa História</h2>
+            <p>Há mais de duas décadas, a Vovó Clara começou a fazer doces em sua pequena cozinha, transformando ingredientes simples em verdadeiras obras de arte açucaradas. Seus doces logo se tornaram os mais desejados da região.
+                Hoje, "Doces da Vovó" é mais do que uma confeitaria, é um lugar onde as famílias se reúnem para celebrar momentos especiais. Venha nos visitar e faça parte dessa história. 
+            </p>
+            <p><strong>Horário de Funcionamento:</strong><br> Segunda a Sexta, das 08:00 às 18:00.</p>
+            <a href="https://api.whatsapp.com/send?phone=seunumerodewhatsapp&text=Ol%C3%A1%20Os%20Doces%20da%20Vov%C3%B3,%20gostaria%20de%20fazer%20um%20pedido!" target="_blank"><button class="btn-faca-pedido">Faça seu pedido</button></a>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Nossos Deliciosos Produtos</h2>
+
+            <div class="produtos-grid">
+                <!-- Bolo de Chocolate -->
+                <div class="produto" data-nome="Bolo de Chocolate" data-descricao="Feito com o mais puro chocolate belga e carinho da vovó.">
+                    <div class="imagem-produto">
+                        <img class="slide" src="./img/bolo-chocolate.jpeg" alt="Bolo de Chocolate 1">
+                        <div class="overlay">
+                            <h3>Bolo de Chocolate</h3>
+                            <p>Feito com o mais puro chocolate belga e carinho da vovó.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Torta de Morango -->
+                <div class="produto" data-nome="Torta de Morango" data-descricao="Recheada com morangos frescos e creme delicado.">
+                    <div class="imagem-produto">
+                        <img class="slide" src="./img/torta-morango.jpg" alt="Torta de Morango 1">
+                        <div class="overlay">
+                            <h3>Torta de Morango</h3>
+                            <p>Recheada com morangos frescos e creme delicado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brigadeiro -->
+                <div class="produto" data-nome="Brigadeiro" data-descricao="O tradicional doce brasileiro, com uma receita secreta da vovó.">
+                    <div class="imagem-produto">
+                        <img class="slide" src="./img/brigadeiro.jpeg" alt="Brigadeiro 1">
+                        <div class="overlay">
+                            <h3>Brigadeiro</h3>
+                            <p>O tradicional doce brasileiro, com uma receita secreta da vovó.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cupcake -->
+                <div class="produto" data-nome="Cupcake" data-descricao="Pequeno, mas cheio de sabor e carinho em cada mordida.">
+                    <div class="imagem-produto">
+                        <img class="slide" src="./img/cupcake.jpg" alt="Cupcake 1">
+                        <div class="overlay">
+                            <h3>Cupcake</h3>
+                            <p>Pequeno, mas cheio de sabor e carinho em cada mordida.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <h2>Depoimentos de Nossos Clientes</h2>
+        <div class="depoimentos-container">
+            <div class="depoimento">
+                <p>"Os doces da vovó são simplesmente os melhores que já provei! Recomendo a todos os meus amigos e familiares."</p>
+                <p class="cliente">- Maria Silva</p>
+            </div>
+            <div class="depoimento">
+                <p>"A torta de morango é divina! Sempre compro para os aniversários da família e todos adoram."</p>
+                <p class="cliente">- João Oliveira</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tire suas dúvidas, faça pedidos<br> ou simplesmente diga olá!</p>
+            <div class="redes-sociais">
+                <a href="https://api.whatsapp.com/send?phone=seunumerodewhatsapp&text=Ol%C3%A1%20Os%20Doces%20da%20Vov%C3%B3,%20gostaria%20de%20fazer%20um%20pedido!"
+                    target="_blank">
+                    <img src="./img/whatsapp.png" alt="WhatsApp" width="50" height="50">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./img/instagram.png" alt="Instagram" width="50" height="50">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Os Doces da Vovó. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
