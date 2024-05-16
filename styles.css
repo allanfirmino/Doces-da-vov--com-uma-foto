@@ -131,7 +131,7 @@ section h2 {
 }
 
 .produto:hover .overlay {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 .overlay h3, .overlay p {
